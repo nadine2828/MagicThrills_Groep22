@@ -9,7 +9,7 @@
 <header>
     <div class="container">
         <div class="logo">
-            <img src ="https://www.creativecoloursolutions.com.au/wp-content/uploads/2011/05/400x400.png">
+            <img src ="https://www.creativecoloursolutions.com.au/wp-content/uploads/2011/05/400x400.png" alt="">
         </div>
 
         <div class="info_bar">
