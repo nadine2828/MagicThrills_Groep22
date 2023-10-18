@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+}
+
+body {
+    background-color: indianred;
+}
+
+.container{
+    display:flex;
+}
+
+.logo {
+    width: 80%;
+    box-sizing: border-box;
+
+
+}
+
+.info_bar{
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.page_name{
+    font-size: 6em;
+}
+
+nav {
+    background-color: deepskyblue;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-content {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 100px;
+
+}
+
+.container-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.inloggen {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+}
+.Registreren {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+.links {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    
+}
+
+.container-links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 270px;
+}
+
+
