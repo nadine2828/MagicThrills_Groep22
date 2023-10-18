@@ -1,0 +1,28 @@
+h1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px;
+    position: relative;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 2in;
+    right: 0;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+}
+
+.search-bar input[type="submit"] {
+    background-color: #fff;
+    color: #007bff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
