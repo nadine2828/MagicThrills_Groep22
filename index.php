@@ -10,7 +10,7 @@
 <header>
     <div class="container">
         <div class="logo">
-            <img src = "https://www.creativecoloursolutions.com.au/wp-content/uploads/2011/05/400x400.png" alt="header-foto">
+            <img src = "Images/LogoMagicThrills.jpg" alt="header-foto">
         </div>
 
         <div class="info_bar">
