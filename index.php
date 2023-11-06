@@ -21,11 +21,12 @@
 </header>
 
 <nav>
-    <ul>
+    <ul><div id="links">
         <li><a href="#">Home</a></li>
         <li><a href="#">Attracties</a></li>
         <li><a href="#">Contact</a></li>
-        <li><a href="#">Weer</a></li>
+            <li><a href="#">Weer</a></li>
+        </div>
     </ul>
 </nav>
 <main>
@@ -36,7 +37,7 @@
         <div class="container-links">
             <div class="sidebar">
                 <div class="inloggen"><a href="#">Inloggen</a></div><br/>
-                <div class="Registreren"><a href="#">Registreren</a></div><br/>
+                <div class="registreren"><a href="#">Registreren</a></div><br/>
                 <div class="links">Links</div>
             </div>
         </div>
