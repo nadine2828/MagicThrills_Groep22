@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>magic thrills</title>
-    <link rel="stylesheet" type="text/css" href="attracties.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/attracties.css">
 </head>
 <body>
 
@@ -46,12 +46,13 @@
         </ul>
     </section>
     <div class="image-container2">
-        <img src="/images/logo%20magic.png" alt="Your Image" width="200" height="200">
+        <img src="../images/logo%20magic.png" alt="Your Image" width="200" height="200">
     </div>
     <section class="content">
         <div class="pretpark-summary">
             <h3>Welkom bij Ons Pretpark</h3>
-            <p>Ontdek een wereld vol opwinding en avontuur in Ons Pretpark! Geniet van spannende attracties, heerlijk eten,
+            <p>Ontdek een wereld vol opwinding en avontuur in Ons Pretpark! Geniet van spannende attracties, heerlijk
+                eten,
                 en onvergetelijke herinneringen voor het hele gezin.De Efteling is een betoverend pretpark in Nederland,
                 bekend om zijn sprookjesachtige sfeer.
                 De Droomvlucht neemt bezoekers mee op een magische reis door een betoverd bos met elfjes en mythische

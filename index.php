@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Title</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheets/nadine.css">
 </head>
 <body>
 <header>
     <div class="container">
         <div class="logo">
-            <img src = "Images/LogoMagicThrills.jpg" alt="header-foto">
+            <img src = "images/LogoMagicThrills.jpg" alt="header-foto">
         </div>
 
         <div class="info_bar">
