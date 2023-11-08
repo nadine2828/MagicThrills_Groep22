@@ -12,7 +12,7 @@
 
 <header>
     <div class="image-container">
-        <img src="/images/logo%20magic.png" alt="Your Image" width="200" height="200">
+        <img src="../images/LogoMagicThrills.jpg" alt="Your Image" width="200" height="200">
     </div>
     <h1>magicthrills</h1>
     <div class="search-bar">
