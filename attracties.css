@@ -1,0 +1,131 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.image_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 5px;
+    position: relative;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 1.5in;
+    right: 2in;
+}
+
+.search-bar input[type="text"] {
+    padding: 5px;
+}
+
+.search-bar input[type="submit"] {
+}
+
+.nav li a:hover {
+    text-decoration: underline;
+}
+
+/* Style the navigation bar */
+.nav {
+    list-style: none;
+    padding: 0.1in;
+    margin: 1.7in;
+    background-color: #000; /* Set the background color to black */
+    display: flex;
+    justify-content: center; /* Center-align the items horizontally */
+    align-items: center; /* Center-align the items vertically */
+    height: 30px; /* Set the desired height for the navigation bar */
+}
+
+.nav li {
+    display: inline;
+    margin: 60px; /* Add space on the sides of each navigation item */
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #fff; /* Set the text color to white */
+}
+
+.nav li a:hover {
+    text-decoration: underline; /* Add an underline on hover */
+}
+
+main {
+    display: flex;
+}
+
+section.sidebar {
+    width: 250px;
+}
+
+section.content {
+    width: 100%;
+}
+
+/* Style the attractions bar */
+.attractions {
+    background-color: #333;
+    color: #b72f2f;
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -150px; /* Initially hidden off-screen */
+    transition: left 0.5s; /* Animation duration */
+}
+
+.attractions h2 {
+    font-size: 18px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.attractions-list {
+    list-style: none;
+    padding: 0;
+}
+
+.attractions-list li {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.attractions-list li a {
+    text-decoration: none;
+    color: #d03030;
+    display: block;
+}
+
+/* Add an animation to slide in the attractions bar */
+.attractions.active {
+    left: 0;
+}
+
+/* CSS voor de samenvatting van het pretpark */
+.pretpark-summary {
+    position: center;
+    bottom: 0cm;
+    right: 1cm;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #ccc;
+
+}
+
+.image_container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 5px;
+    position: relative;
+}
+
