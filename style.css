@@ -8,11 +8,12 @@ div {
 }
 
 body {
-    background-color: indianred;
+    background-color: white;;
 }
 
 .container{
     display:flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -26,11 +27,12 @@ body {
 
 .info_bar{
     box-sizing: border-box;
-
+    text-align: right;
 }
 
 .page_name{
     font-size: 6em;
+
 }
 
 nav {
@@ -49,6 +51,11 @@ ul{
 
 li {
     display: inline;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
     margin-right: 100px;
 
 }
@@ -72,6 +79,23 @@ a {
     align-items: center;
     height: 30vh;
 }
+.container-text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.text-blok{
+    border: red solid 5px;
+    margin-right: 100px;
+}
+.text-blok2 {
+    border: red solid 5px;
+    margin-right: 100px;
+    width: 1000px;
+    height: auto;
+}
 
 .inloggen {
     background-color: red;
@@ -81,7 +105,7 @@ a {
     line-height: 50px;
     border-radius: 10px;
 }
-.Registreren {
+.registreren {
     background-color: red;
     width: 200px;
     height: 50px;
@@ -95,9 +119,16 @@ a {
     width: 200px;
     height: 200px;
     border-radius: 10px;
+    padding-left: 5px;
     
 }
-
+.links2{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
 .container-links {
     display: flex;
     justify-content: right;
@@ -108,6 +139,37 @@ a {
 .sidebar{
     margin-right: 100px;
 }
+
+.inlog-blok{
+    height: 400px;
+    width: 400px;
+    background-color: indianred;
+    margin: auto;
+}
+
+.inloggen{
+    margin:auto;
+}
+
+.registreren {
+    margin: auto;
+}
+
+.email {
+    padding-left: 85px;
+}
+
+.wachtwoord {
+    padding-left:42px;
+}
+
+.afbeelding{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
 @media screen and (max-width: 650px) {
     .container {
         flex-direction: column;
@@ -125,6 +187,14 @@ a {
     }
     .sidebar {
         margin-right: 0px;
+    }
+    .container-text2 {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+    }
+    text-blok2{
+        width: 400px;
     }
 }
 
