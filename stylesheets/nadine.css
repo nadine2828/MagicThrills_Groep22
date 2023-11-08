@@ -16,6 +16,10 @@ body {
     justify-content: space-between;
 }
 
+.container, image{
+    margin-left: 100px;
+}
+
 .logo {
     box-sizing: border-box;
 }
@@ -28,6 +32,7 @@ body {
 .info_bar{
     box-sizing: border-box;
     text-align: right;
+    margin-right:50px;
 }
 
 .page_name{
@@ -54,10 +59,10 @@ li {
     background-color: black;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
     margin-right: 100px;
-
+    border-radius: 10px;
 }
 
 a {
@@ -81,7 +86,7 @@ a {
 }
 .container-text2{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     margin-right: 50px;
 }
@@ -170,6 +175,11 @@ a {
     width: 20%;
 }
 
+.search-bar, input[type="image"]{
+    height: 10px;
+    width: 10px;
+}
+
 @media screen and (max-width: 650px) {
     .container {
         flex-direction: column;
@@ -195,6 +205,12 @@ a {
     }
     text-blok2{
         width: 400px;
+    }
+    .info_bar{
+        margin-right: 0px;
+    }
+    .container, image{
+        margin-left: 0px;
     }
 }
 

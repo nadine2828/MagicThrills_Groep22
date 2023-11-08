@@ -15,7 +15,8 @@
 
         <div class="info_bar">
             <div class="page_name">Show</div>
-            <div class="search_bar"><i>Search here</i></div>
+            <div class="search_bar"><input type="text" placeholder="Zoeken">
+                <input type="image"  src="images/img.png" alt="Zoeken"></div>
         </div>
     </div>
 </header>
@@ -24,7 +25,7 @@
     <ul>
         <div id="links">
             <li><a href="#">Home</a></li>
-            <li><a href="#">Attracties</a></li>
+            <li><a href="attracties">Attracties</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Weer</a></li>
         </div>
