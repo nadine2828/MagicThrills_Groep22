@@ -8,7 +8,7 @@ div {
 }
 
 body {
-    background-color: white;;
+    background-image: linear-gradient(to bottom right, blue, darkgrey);
 }
 
 .container{
@@ -17,7 +17,7 @@ body {
 }
 
 .container, image{
-    margin-left: 100px;
+    margin-left: 150px;
 }
 
 .logo {
@@ -25,8 +25,10 @@ body {
 }
 
 .logo img {
-    width: 250px;
+    width: 200px;
     height: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .info_bar{
@@ -93,7 +95,8 @@ a {
 
 .text-blok{
     border: red solid 5px;
-    margin-right: 100px;
+    margin-right: 75px;
+
 }
 .text-blok2 {
     border: red solid 5px;
@@ -178,6 +181,11 @@ a {
 .search-bar, input[type="image"]{
     height: 10px;
     width: 10px;
+}
+
+.content, img{
+    width: 500px;
+    height: auto;
 }
 
 @media screen and (max-width: 650px) {

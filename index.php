@@ -33,8 +33,8 @@
 <main>
 
     <div class="container-content">
-        <div class="content"></div>
-        <img src="https://www.creativecoloursolutions.com.au/wp-content/uploads/2011/05/400x400.png"><br/>
+        <div class="content">
+        <img src="images/image-reuzenrad.jpg"><br/></div>
         <div class="container-links">
             <div class="sidebar">
                 <div class="inloggen"><a href="inloggen">Inloggen</a></div><br/>
@@ -48,7 +48,14 @@
 
     <div class="container-text">
         <div class="text">
-            <p>lorem ipsum</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin convallis quis ipsum sed
+                molestie.<br/> Nullam placerat sed ipsum non accumsan. Fusce est nibh,<br/> maximus non ultricies a, ornare
+                in mi. Etiam non commodo dui. Ut id augue a nulla pretium<br/> ultrices nec a augue. Aenean vehicula diam
+                ex, at tincidunt nisi dignissim quis.<br/> Morbi tincidunt mi vitae ipsum egestas, non aliquam tellus
+                laoreet. Suspendisse pharetra nulla<br/> nisi, quis egestas urna placerat nec. Aenean lacinia neque in justo
+                laoreet maximus.<br/> Aenean vel placerat lectus. Etiam ac turpis maximus, tempor neque maximus, scelerisque
+                purus.<br/> Mauris pellentesque non ipsum sed volutpat. Nam tincidunt luctus blandit.<br/> Sed sit amet eros
+                ornare, mattis leo in, tincidunt purus. Aenean vestibulum volutpat vestibulum.</p>
         </div>
     </div>
 </main>

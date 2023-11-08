@@ -32,7 +32,7 @@
     </ul>
 </nav>
 <main>
-    <img src="https://www.creativecoloursolutions.com.au/wp-content/uploads/2011/05/400x400.png" alt="show"
+    <img src="/images/show1.png" alt="show"
          class="afbeelding">
     <div class="container-text2">
         <div class="text-blok2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin convallis quis ipsum sed
