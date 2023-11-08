@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+
+}
+
+body {
+    background-color: white;;
+}
+
+.container{
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo {
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 250px;
+    height: auto;
+}
+
+.info_bar{
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.page_name{
+    font-size: 6em;
+
+}
+
+nav {
+    background-color: deepskyblue;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+li {
+    display: inline;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: 100px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container-content {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+
+}
+
+.container-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.container-text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.text-blok{
+    border: red solid 5px;
+    margin-right: 100px;
+}
+.text-blok2 {
+    border: red solid 5px;
+    margin-right: 100px;
+    width: 1000px;
+    height: auto;
+}
+
+.inloggen {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+}
+.registreren {
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 10px;
+}
+
+.links {
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding-left: 5px;
+    
+}
+.links2{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.container-links {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 270px;
+}
+
+.sidebar{
+    margin-right: 100px;
+}
+
+.inlog-blok{
+    height: 400px;
+    width: 400px;
+    background-color: indianred;
+    margin: auto;
+}
+
+.inloggen{
+    margin:auto;
+}
+
+.registreren {
+    margin: auto;
+}
+
+.email {
+    padding-left: 85px;
+}
+
+.wachtwoord {
+    padding-left:42px;
+}
+
+.afbeelding{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-content {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-links {
+        margin-left: 0px;
+    }
+    li {
+        margin-right: 20px;
+    }
+    .sidebar {
+        margin-right: 0px;
+    }
+    .container-text2 {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+    }
+    text-blok2{
+        width: 400px;
+    }
+}
+
