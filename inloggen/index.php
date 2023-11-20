@@ -16,7 +16,7 @@
         <div class="info_bar">
             <div class="page_name">Inloggen</div>
             <div class="search_bar"><input type="text" placeholder="Zoeken">
-                <input type="image"  src="images/img.png" alt="Zoeken"></div>
+                <input type="image"  src="/images/img.png" alt="Zoeken"></div>
         </div>
     </div>
 
@@ -58,7 +58,14 @@
             purus.<br/> Mauris pellentesque non ipsum sed volutpat. Nam tincidunt luctus blandit.<br/> Sed sit amet eros
             ornare, mattis leo in, tincidunt purus. Aenean vestibulum volutpat vestibulum.
         </div>
-        <div class="links">Links</div>
+        <div class="links">Links<div class="links3">
+            <div class="facebook">
+                <a href="#">
+                    <img src="/images/Facebook_logo_(square).png">
+                </a></div> <div class="twitter">
+                    <a href="#"><img src="/images/twitter-icon.png"></a>
+                </div></div>
+            </div>
     </div>
 </main>
 </body>

@@ -39,7 +39,16 @@
             <div class="sidebar">
                 <div class="inloggen"><a href="inloggen">Inloggen</a></div><br/>
                 <div class="registreren"><a href="#">Registreren</a></div><br/>
-                <div class="links">Links</div>
+                <div class="links">Links
+                    <div class="links3">
+                    <div class="facebook">
+                        <a href="#">
+                            <img src="images/Facebook_logo_(square).png">
+                        </a></div>
+                    <div class="twitter">
+                        <a href="#"><img src="images/twitter-icon.png"></a>
+                    </div></div>
+                </div>
             </div>
         </div>
     </div>
