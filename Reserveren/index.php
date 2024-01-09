@@ -32,8 +32,8 @@
 <main>
     <div class="shows">
         <div class="afbeelding2"><a href="/show/index.php"><img src="/images/show1.png"></a></div>
-        <div class="afbeelding3"><img src="/images/show2.jpg"</div>
-        <div class="afbeelding4"><img src="/images/show3.jpg"</div>
+        <div class="afbeelding3"><img src="/images/show2.jpg" alt=""></div>
+        <div class="afbeelding4"><img src="/images/show3.jpg" alt=""></div>
     </div>
 
     <div class="container-links2">
