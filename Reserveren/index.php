@@ -22,7 +22,7 @@
 </header>
 <nav>
     <ul><div id="links">
-            <li><a href="index.php">Home</a></li>
+            <li><a href="/index.php">Home</a></li>
             <li><a href="attracties">Attracties</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Weer</a></li>
@@ -31,11 +31,13 @@
 </nav>
 <main>
     <div class="shows">
-        <div class="afbeelding2"><img src="/images/show1.png"</div>
+        <div class="afbeelding2"><a href="/show/index.php"><img src="/images/show1.png"></a></div>
         <div class="afbeelding3"><img src="/images/show2.jpg"</div>
         <div class="afbeelding4"><img src="/images/show3.jpg"</div>
     </div>
 
+    <div class="container-links2">
+    <div class="sidebar">
     <div class="links">Links
         <div class="links3">
             <div class="facebook">
@@ -45,8 +47,11 @@
             <div class="twitter">
                 <a href="#"><img src="/images/twitter-icon.png"></a>
             </div></div>
+        <div class="reserveren">
+            <a href="/Reserveren/index.php"">Reserveren</a></div>
     </div>
-
+    </div>
+    </div>
 </main>
 </body>
 </html>

@@ -61,6 +61,8 @@
                 </a></div> <div class="twitter">
                     <a href="#"><img src="/images/twitter-icon.png"></a>
                 </div></div>
+            <div class="reserveren">
+                <a href="/Reserveren/index.php"">Reserveren</a></div>
             </div>
     </div>
 </main>

@@ -67,7 +67,7 @@ li {
     border-radius: 10px;
 }
 
-a {
+a, inloggen, registreren {
     text-decoration: none;
     color: white;
 }
@@ -213,7 +213,14 @@ a {
 .shows{
     display: flex;
     flex-direction: row;
+    width: 100%;
 }
+
+.container-links2 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-left: 800px;
 
 @media screen and (max-width: 650px) {
     .container {
